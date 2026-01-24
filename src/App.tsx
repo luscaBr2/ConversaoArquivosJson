@@ -26,6 +26,8 @@ function App() {
     const [result, setResult] = useState<ConversionResponse | null>(null);
     const [isDragging, setIsDragging] = useState(false);
 
+    const API_DOC_URL = "http://apiconversaoarquivos-luscabr2.runasp.net/";
+
     const API_URL =
         "http://apiconversaoarquivos-luscabr2.runasp.net/api/convert/";
 
@@ -426,12 +428,12 @@ function App() {
                     <p className="mt-2">
                         Endpoint:{" "}
                         <a
-                            href={API_URL}
+                            href={API_DOC_URL}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-blue-400 hover:text-blue-300 transition-colors"
                         >
-                            {API_URL}
+                            {API_DOC_URL}
                         </a>
                     </p>
                 </div>
