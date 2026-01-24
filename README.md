@@ -2,6 +2,12 @@
 
 Interface web moderna desenvolvida em **React + TypeScript + Vite** para consumir a API de conversão de arquivos.
 
+## 🌐 URL da Aplicação
+
+```
+https://conversao-arquivos-luscabr2.vercel.app
+```
+
 ## 🚀 Tecnologias
 
 - **React 18** - Biblioteca UI
