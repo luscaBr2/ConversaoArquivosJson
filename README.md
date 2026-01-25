@@ -8,6 +8,13 @@ Interface web moderna desenvolvida em **React + TypeScript + Vite** para consumi
 https://conversao-arquivos-luscabr2.vercel.app
 ```
 
+## 🌐 URL da API
+```
+https://conversao-arquivos-luscabr2.vercel.app
+```
+
+[Repositório GitHub API](https://github.com/luscaBr2/ApiConversaoArquivos)
+
 ## 🚀 Tecnologias
 
 - **React 18** - Biblioteca UI
