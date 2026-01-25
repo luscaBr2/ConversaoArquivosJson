@@ -10,7 +10,7 @@ https://conversao-arquivos-luscabr2.vercel.app
 
 ## 🌐 URL da API
 ```
-https://conversao-arquivos-luscabr2.vercel.app
+http://apiconversaoarquivos-luscabr2.runasp.net
 ```
 
 [Repositório GitHub API](https://github.com/luscaBr2/ApiConversaoArquivos)
