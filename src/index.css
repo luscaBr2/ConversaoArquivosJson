@@ -48,3 +48,121 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* Social Media Buttons */
+.social-links {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  z-index: 1000;
+  width: 160px;
+  height: 170px;
+}
+
+.social-btn {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: white;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.social-btn:nth-child(1) {
+  top: 0;
+}
+
+.social-btn:nth-child(2) {
+  top: 60px;
+}
+
+.social-btn:nth-child(3) {
+  top: 120px;
+}
+
+.social-btn svg {
+  height: 24px;
+  width: 24px;
+  flex-shrink: 0;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-align: center;
+  margin-left: 0;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.social-btn:hover {
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+}
+
+.social-btn:hover span {
+  width: 100px;
+  margin-left: 8px;
+}
+
+#twitter svg {
+  fill: #1da1f2;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github svg {
+  fill: #333;
+}
+
+/* Responsive - esconde em mobile pequeno */
+@media (max-width: 640px) {
+  .social-links {
+    top: 10px;
+    right: 10px;
+    width: 140px;
+    height: 155px;
+  }
+  
+  .social-btn {
+    height: 45px;
+    width: 45px;
+  }
+
+  .social-btn:nth-child(1) {
+    top: 0;
+  }
+
+  .social-btn:nth-child(2) {
+    top: 55px;
+  }
+
+  .social-btn:nth-child(3) {
+    top: 110px;
+  }
+  
+  .social-btn:hover {
+    width: 140px;
+  }
+  
+  .social-btn:hover span {
+    width: 80px;
+  }
+}
