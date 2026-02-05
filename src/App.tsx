@@ -27,9 +27,9 @@ function App() {
     const [result, setResult] = useState<ConversionResponse | null>(null);
     const [isDragging, setIsDragging] = useState(false);
 
-    const API_DOC_URL = "http://apiconversaoarquivos-luscabr2.runasp.net/";
+    const API_DOC_URL = "https://apiconversaoarquivos-luscabr2.runasp.net/";
     const API_URL =
-        "http://apiconversaoarquivos-luscabr2.runasp.net/api/convert/";
+        "https://apiconversaoarquivos-luscabr2.runasp.net/api/convert/";
 
     const supportedFormats = [
         { ext: ".pdf", name: "PDF", icon: FileText, color: "text-red-500" },
